@@ -2,8 +2,12 @@
   <app-navbar [selectedItem]="menuService.selectedMenu | async"
               [menu]="menuService.menu | async"
               (changeRef)="menuService.selectedMenu.next($event)"></app-navbar>
-  <app-study></app-study>
-  <footer class="mt-auto bg-light text-center text-black">
-    Ciao
-  </footer>
+  <div style="height: 90vh; overflow: auto">
+    <app-home></app-home>
+<!--    <app-study></app-study>-->
+  </div>
+  <app-footer></app-footer>
+<!--  <footer class="mt-auto bg-light text-black fixed-bottom">-->
+<!--    <label class="m-auto">giovanniemanuelelongo.it</label>-->
+<!--  </footer>-->
 </div>
