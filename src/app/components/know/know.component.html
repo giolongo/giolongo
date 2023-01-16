@@ -1,0 +1,23 @@
+<div id="know" class="bg-know pt-4">
+  <div class="row w-100 m-0 text-center">
+    <div class="col" *ngFor="let know of knows" [ngbTooltip]="know.name" container="body" placement="bottom">
+      <circle-progress
+        [percent]="know.percentage"
+        [showUnits]="true"
+        [radius]="100"
+        [outerStrokeWidth]="16"
+        [innerStrokeWidth]="8"
+        [outerStrokeColor]="know.color"
+        [innerStrokeColor]="know.innerColor"
+        [animation]="true"
+        [title]="know.name"
+        [showSubtitle]="false"
+        [imageSrc]="know.urlImage"
+        [imageHeight]="100"
+        [imageWidth]="100"
+        [showImage]="true"
+        [animationDuration]="300"
+      ></circle-progress>
+    </div>
+  </div>
+</div>

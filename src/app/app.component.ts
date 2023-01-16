@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import {MenuService} from "./services/menu.service";
+import {KnowService} from "./services/know.service";
 
 @Component({
   selector: 'app-root',
@@ -9,6 +10,6 @@ import {MenuService} from "./services/menu.service";
 export class AppComponent {
   title = 'giovanniemanuelelongo';
 
-  constructor(public menuService: MenuService) {
+  constructor(public menuService: MenuService, public knowService: KnowService) {
   }
 }

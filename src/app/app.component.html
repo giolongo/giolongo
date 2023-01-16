@@ -2,9 +2,9 @@
   <app-navbar [selectedItem]="menuService.selectedMenu | async"
               [menu]="menuService.menu | async"
               (changeRef)="menuService.selectedMenu.next($event)"></app-navbar>
-  <div style="height: 90vh; overflow: auto">
+  <div class="mt-4 container-box">
     <app-home></app-home>
-<!--    <app-study></app-study>-->
+    <app-know [knows]="knowService.knows | async"></app-know>
   </div>
   <app-footer></app-footer>
 <!--  <footer class="mt-auto bg-light text-black fixed-bottom">-->

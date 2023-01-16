@@ -1,19 +1,20 @@
-[{
-  "title": "Home",
-  "link": "#home"
-},{
-  "title": "Le mia Passioni",
-  "link": "#passion"
-},{
-  "title": "I miei Studi",
-  "link": "#study"
-},{
-  "title": "Altro",
-  "link": "#other"
-},{
-  "title": "Contattami",
-  "link": "#contact"
-}
+[
+  {
+    "title": "Home",
+    "link": "#home"
+  },
+  {
+    "title": "Le mie conoscienze",
+    "link": "#know"
+  },
+  {
+    "title": "Le mie esperienze",
+    "link": "#exp"
+  },
+  {
+    "title": "Contattami",
+    "link": "#contact"
+  }
 ]
 
 
