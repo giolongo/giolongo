@@ -10,6 +10,8 @@ import { FooterComponent } from './components/footer/footer.component';
 import {NgxTypedJsModule} from "ngx-typed-js";
 import { KnowComponent } from './components/know/know.component';
 import {NgCircleProgressModule} from "ng-circle-progress";
+import { NgxPageScrollCoreModule } from 'ngx-page-scroll-core';
+import {NgxPageScrollModule} from "ngx-page-scroll";
 
 @NgModule({
   declarations: [
@@ -25,6 +27,7 @@ import {NgCircleProgressModule} from "ng-circle-progress";
     NgxTypedJsModule,
     NgbModule,
     NgxTypedJsModule,
+    NgxPageScrollCoreModule,
     NgCircleProgressModule.forRoot({
       // set defaults here
       radius: 100,
@@ -33,7 +36,8 @@ import {NgCircleProgressModule} from "ng-circle-progress";
       outerStrokeColor: "#78C000",
       innerStrokeColor: "#C7E596",
       animationDuration: 300
-    })
+    }),
+    NgxPageScrollModule
   ],
   providers: [],
   bootstrap: [AppComponent]

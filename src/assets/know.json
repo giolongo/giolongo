@@ -135,21 +135,91 @@
     "group": "backend",
     "height":  100,
     "width":  100,
-    "innerColor":  "#9966CC",
-    "urlImage": "../../assets/icons/ngrx.svg",
-    "name": "NgRx",
-    "color": "#4E3B41",
-    "percentage": 70
+    "innerColor":  "#bcae79",
+    "urlImage": "../../assets/icons/hibernate.svg",
+    "name": "Hibernate",
+    "color": "#59666c",
+    "percentage": 60,
+    "description": "ORM di base utilizzato su Java, usato in ambiente lavorativo principalmente, con mapping di Entity, relazioni, query native e con HQL"
   },
   {
-    "group": "soft",
+    "group": "backend",
     "height":  100,
+    "width":  80,
+    "innerColor":  "#59666c",
+    "urlImage": "../../assets/icons/resteasy.svg",
+    "name": "RestEasy",
+    "color": "#000000",
+    "percentage": 60,
+    "description": "Utilizzato in ambiente lavorativo per la costruzione di servizi Rest e Restful di applicazioni Java"
+  },
+  {
+    "group": "backend",
+    "height":  60,
     "width":  100,
-    "innerColor":  "#9966CC",
-    "urlImage": "../../assets/icons/ngrx.svg",
-    "name": "NgRx",
-    "color": "#4E3B41",
-    "percentage": 70
+    "innerColor":  "#4695EBFF",
+    "urlImage": "../../assets/icons/quarkus.svg",
+    "name": "Quarkus",
+    "color": "#FF004AFF",
+    "percentage": 40,
+    "description": "Utilizzato a lavoro, mi piace molto l'approccio utilizzato da Quarkus. Sarà mio interesse approfondirlo."
+  },
+  {
+    "group": "backend",
+    "height":  50,
+    "width":  100,
+    "innerColor":  "#000000",
+    "urlImage": "../../assets/icons/fastify.svg",
+    "name": "RestEasy",
+    "color": "#59666c",
+    "percentage": 30,
+    "description": "Ci ho giocato un po' per sperimentarlo. Successore di Express, utile alla costruzione di applicazioni Rest e Restful su Node"
+  },
+
+
+  {
+    "group": "other",
+    "height":  100,
+    "width":  130,
+    "innerColor":  "#FFA518",
+    "urlImage": "../../assets/icons/sql.png",
+    "name": "SQL",
+    "color": "#336791",
+    "percentage": 80,
+    "description": "Gestione di DBMS e quey per la manipolazione dei dati. Conoscenza di Postgresql, MySql, Sybase"
+  },
+  {
+    "group": "other",
+    "height":  50,
+    "width":  100,
+    "innerColor":  "#CB3837",
+    "urlImage": "../../assets/icons/npm.png",
+    "name": "NPM",
+    "color": "#CB877C",
+    "percentage": 70,
+    "description": "Il Package Manager di Node per gestire dipendenze. Essenziali in qualsiasi progetto JS o framework affini."
+  },
+  {
+    "group": "other",
+    "height":  50,
+    "width":  100,
+    "innerColor":  "#F0E655",
+    "urlImage": "../../assets/icons/git.png",
+    "name": "Git",
+    "color": "#F05033",
+    "percentage": 60,
+    "description": "Il Sitema di version control per eccellenza. Essenziale in ogni progetto per il mantenimento dello stesso."
+  },
+  {
+    "group": "other",
+    "height":  50,
+    "width":  120,
+    "innerColor":  "#E37627",
+    "urlImage": "../../assets/icons/maven.png",
+    "name": "Maven",
+    "color": "#81277A",
+    "percentage": 50,
+    "description": "Software Project Manager di Java, aiuta a gestire le versioni, dipendenze e packaging di un progetto."
   }
 ]
 

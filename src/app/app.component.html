@@ -1,13 +1,10 @@
 <div class="d-flex flex-column min-vh-100">
   <app-navbar [selectedItem]="menuService.selectedMenu | async"
               [menu]="menuService.menu | async"
-              (changeRef)="menuService.selectedMenu.next($event)"></app-navbar>
+              (changeRef)="changeRef($event)"></app-navbar>
   <div class="container-box">
     <app-home></app-home>
     <app-know [knows]="knowService.knowByGroups | async" [groups]="knowService.groups | async"></app-know>
   </div>
   <app-footer></app-footer>
-<!--  <footer class="mt-auto bg-light text-black fixed-bottom">-->
-<!--    <label class="m-auto">giovanniemanuelelongo.it</label>-->
-<!--  </footer>-->
 </div>

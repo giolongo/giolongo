@@ -1,15 +1,15 @@
 <div id="know" class="bg-know py-4">
   <div class="row w-100 m-0">
-    <div class="col-12" *ngFor="let group of groups">
-      <h3>{{group | uppercase}}:</h3>
+    <div class="col-12 " *ngFor="let group of groups">
       <div class="container" *ngIf="knows && knows[group]">
         <div class="row w-100 m-0">
+          <h3>{{group | uppercase}}:</h3>
           <div class="col-sm-12 col-md-6 col-lg-4 d-flex align-items-stretch my-1" *ngFor="let know of knows[group]">
             <div class="card text-center">
               <div class="card-header">
                 {{know.name}}
               </div>
-              <div class="card-body">
+              <div class="card-body d-flex flex-column">
                 <circle-progress
                   [percent]="know.percentage"
                   [showUnits]="true"
@@ -27,7 +27,7 @@
                   [showImage]="true"
                   [animationDuration]="300"
                 ></circle-progress>
-                <p class="text-black-50">{{know.description}}</p>
+                <p class="text-black-50 mt-auto mb-1">{{know.description}}</p>
               </div>
             </div>
           </div>

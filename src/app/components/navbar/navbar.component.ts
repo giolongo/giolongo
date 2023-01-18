@@ -7,16 +7,11 @@ import {MenuModel} from "../../models/menu.model";
   templateUrl: './navbar.component.html',
   styleUrls: ['./navbar.component.css']
 })
-export class NavbarComponent implements OnInit {
+export class NavbarComponent{
 
   @Input() selectedItem!: string | null;
   @Input() menu!: MenuModel[] | null;
   @Output() changeRef = new EventEmitter<MenuType>();
 
   public isCollapsed = true;
-  constructor() { }
-
-  ngOnInit(): void {
-  }
-
 }
