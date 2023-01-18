@@ -7,7 +7,8 @@
     "urlImage": "../../assets/icons/java.png",
     "name": "Java",
     "color": "#b52e31",
-    "percentage": 70
+    "percentage": 70,
+    "description": "Studiato a scuola ed utilizzato a lavoro, il principale linguagio da BE che conosco"
   },
   {
     "group": "language",
@@ -17,7 +18,8 @@
     "urlImage": "../../assets/icons/javaee.png",
     "name": "JavaEE",
     "color": "#E76F00",
-    "percentage": 65
+    "percentage": 65,
+    "description": "La Enterprise Edition di Java che aggiunge funzionalità al classico Java, l'ho utilizzato principalmente in ambiente lavorativo"
   },
   {
     "group": "language",
@@ -27,7 +29,8 @@
     "urlImage": "../../assets/icons/javascript.png",
     "name": "Javascript",
     "color": "#FFD83A",
-    "percentage": 65
+    "percentage": 60,
+    "description": "Ci ho giochichiato da sempre un po' con la caretteristica di essere facilmente eseguibile dalle console del Browser. Visto anche sotto il framework AngularJs e nella versione BE con node. Usato sul FE in ambiente lavorativo"
   },
   {
     "group": "language",
@@ -37,7 +40,8 @@
     "urlImage": "../../assets/icons/perl.png",
     "name": "Perl",
     "color": "#0496C0",
-    "percentage": 30
+    "percentage": 30,
+    "description": "Ne conosco l'esistenza e non adoro utilizzarlo, usato poco e mal volentieri."
   },
   {
     "group": "language",
@@ -47,7 +51,8 @@
     "urlImage": "../../assets/icons/c++.png",
     "name": "C++",
     "color": "#1A4674",
-    "percentage": 20
+    "percentage": 20,
+    "description": "Studiato e utilizzato a scuola ed all'università, non mi dispiace il suo utilizzo, ma sarebbe da approfondire"
   },
   {
     "group": "frontend",
@@ -57,7 +62,8 @@
     "urlImage": "../../assets/icons/angular.png",
     "name": "Angular",
     "color": "#b52e31",
-    "percentage": 80
+    "percentage": 80,
+    "description": "Il Framework JS frontend che preferisco, lo utilizzo in tutti i progetti (anche su questo sito) per creare SPA. Mi piace la struttura che tende a dare ai progetti e mi diverte il suo utilizzo"
   },
   {
     "group": "frontend",
@@ -67,7 +73,8 @@
     "urlImage": "../../assets/icons/angularjs.svg",
     "name": "AngularJs",
     "color": "#b52e31",
-    "percentage": 70
+    "percentage": 70,
+    "description": "Utilizzato in ambito lavorativo, lo conosco, non lo adoro come Angular, ma se necessario riesco ad approcciarmi con questo framework"
   },
   {
     "group": "frontend",
@@ -77,7 +84,8 @@
     "urlImage": "../../assets/icons/ngrx.svg",
     "name": "NgRx",
     "color": "#4E3B41",
-    "percentage": 70
+    "percentage": 70,
+    "description": "La libreria per il pattern Redux che serve ad Angular per renderlo definitivo, essenziale in progetti medio/grossi scritti in Angular"
   },
   {
     "group": "frontend",
@@ -87,7 +95,8 @@
     "urlImage": "../../assets/icons/bootstrap.png",
     "name": "Bootstrap",
     "color": "#000000",
-    "percentage": 70
+    "percentage": 70,
+    "description": "Liberia CSS per i progetti FE, conosco sia la versione base che quella componentizzata per Angular"
   },
   {
     "group": "frontend",
@@ -97,7 +106,8 @@
     "urlImage": "../../assets/icons/vue.png",
     "name": "VueJs",
     "color": "#4dba87",
-    "percentage": 50
+    "percentage": 50,
+    "description": "Utilizzato in ambito lavorativo, prediligo l'utilizzo di Angular ma riesco ad approcciarmi anche con questo Framework"
   },
   {
     "group": "frontend",
@@ -107,7 +117,8 @@
     "urlImage": "../../assets/icons/vuex.png",
     "name": "Vuex",
     "color": "#425466",
-    "percentage": 50
+    "percentage": 50,
+    "description": "La libreria per il pattern Redux utilizzata su Vue. Un po' più minimale rispetto ad NgRx ma anch'essa utile. Essendo più minimal si può pensare di inserirla anche nei progetti più piccoli"
   },
   {
     "group": "frontend",
@@ -117,7 +128,8 @@
     "urlImage": "../../assets/icons/css.png",
     "name": "CSS",
     "color": "#32a8db",
-    "percentage": 30
+    "percentage": 30,
+    "description": "Non mi è mai piaciuta la scrittura del CSS, riesco a fare qualcosa, ma solitamente costruita la base mi faccio affiancare da un UI Enginner"
   },
   {
     "group": "backend",

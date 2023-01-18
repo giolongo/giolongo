@@ -6,5 +6,6 @@ export interface KnowModel {
   urlImage: string,
   percentage: number,
   height: number,
-  width: number
+  width: number,
+  description: string
 }
