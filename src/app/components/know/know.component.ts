@@ -1,5 +1,6 @@
 import {Component, Input, OnInit} from '@angular/core';
 import {KnowModel} from "../../models/know.model";
+import {Dictionary} from "../../models/dictionary.model";
 
 @Component({
   selector: 'app-know',
@@ -8,7 +9,8 @@ import {KnowModel} from "../../models/know.model";
 })
 export class KnowComponent implements OnInit {
 
-  @Input() knows!: KnowModel[] | null;
+  @Input() knows!: Dictionary<KnowModel[]> | null;
+  @Input() groups!: KnowModel['group'][]  | null;
   constructor() { }
 
   ngOnInit(): void {

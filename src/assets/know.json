@@ -1,6 +1,58 @@
 [
   {
-
+    "group": "language",
+    "height": 100,
+    "width": 80,
+    "innerColor":  "#32a8db",
+    "urlImage": "../../assets/icons/java.png",
+    "name": "Java",
+    "color": "#b52e31",
+    "percentage": 70
+  },
+  {
+    "group": "language",
+    "height": 100,
+    "width": 80,
+    "innerColor":  "#b52e31",
+    "urlImage": "../../assets/icons/javaee.png",
+    "name": "JavaEE",
+    "color": "#E76F00",
+    "percentage": 65
+  },
+  {
+    "group": "language",
+    "height":  100,
+    "width":  180,
+    "innerColor":  "#DAB92D",
+    "urlImage": "../../assets/icons/javascript.png",
+    "name": "Javascript",
+    "color": "#FFD83A",
+    "percentage": 65
+  },
+  {
+    "group": "language",
+    "height":  100,
+    "width":  200,
+    "innerColor":  "#1B96C0",
+    "urlImage": "../../assets/icons/perl.png",
+    "name": "Perl",
+    "color": "#0496C0",
+    "percentage": 30
+  },
+  {
+    "group": "language",
+    "height":  100,
+    "width":  100,
+    "innerColor":  "#5C8DBC",
+    "urlImage": "../../assets/icons/c++.png",
+    "name": "C++",
+    "color": "#1A4674",
+    "percentage": 20
+  },
+  {
+    "group": "frontend",
+    "height":  100,
+    "width":  100,
     "innerColor":  "red",
     "urlImage": "../../assets/icons/angular.png",
     "name": "Angular",
@@ -8,7 +60,19 @@
     "percentage": 80
   },
   {
-
+    "group": "frontend",
+    "height":  100,
+    "width":  160,
+    "innerColor":  "red",
+    "urlImage": "../../assets/icons/angularjs.svg",
+    "name": "AngularJs",
+    "color": "#b52e31",
+    "percentage": 70
+  },
+  {
+    "group": "frontend",
+    "height":  100,
+    "width":  100,
     "innerColor":  "#9966CC",
     "urlImage": "../../assets/icons/ngrx.svg",
     "name": "NgRx",
@@ -16,108 +80,64 @@
     "percentage": 70
   },
   {
-
-    "innerColor":  "red",
-    "urlImage": "../../assets/icons/angular.png",
-    "name": "Angular",
-    "color": "#b52e31",
-    "percentage": 80
+    "group": "frontend",
+    "height":  100,
+    "width":  100,
+    "innerColor":  "#563D7C",
+    "urlImage": "../../assets/icons/bootstrap.png",
+    "name": "Bootstrap",
+    "color": "#000000",
+    "percentage": 70
   },
   {
-
-    "innerColor":  "red",
-    "urlImage": "../../assets/icons/angular.png",
-    "name": "Angular",
-    "color": "#b52e31",
-    "percentage": 80
+    "group": "frontend",
+    "height":  100,
+    "width":  100,
+    "innerColor":  "#425466",
+    "urlImage": "../../assets/icons/vue.png",
+    "name": "VueJs",
+    "color": "#4dba87",
+    "percentage": 50
   },
   {
-
-    "innerColor":  "red",
-    "urlImage": "../../assets/icons/angular.png",
-    "name": "Angular",
-    "color": "#b52e31",
-    "percentage": 80
+    "group": "frontend",
+    "height":  100,
+    "width":  100,
+    "innerColor":  "#4dba87",
+    "urlImage": "../../assets/icons/vuex.png",
+    "name": "Vuex",
+    "color": "#425466",
+    "percentage": 50
   },
   {
-
-    "innerColor":  "red",
-    "urlImage": "../../assets/icons/angular.png",
-    "name": "Angular",
-    "color": "#b52e31",
-    "percentage": 80
+    "group": "frontend",
+    "height":  100,
+    "width":  100,
+    "innerColor":  "#1572b7",
+    "urlImage": "../../assets/icons/css.png",
+    "name": "CSS",
+    "color": "#32a8db",
+    "percentage": 30
   },
   {
-
-    "innerColor":  "red",
-    "urlImage": "../../assets/icons/angular.png",
-    "name": "Angular",
-    "color": "#b52e31",
-    "percentage": 80
+    "group": "backend",
+    "height":  100,
+    "width":  100,
+    "innerColor":  "#9966CC",
+    "urlImage": "../../assets/icons/ngrx.svg",
+    "name": "NgRx",
+    "color": "#4E3B41",
+    "percentage": 70
   },
   {
-
-    "innerColor":  "red",
-    "urlImage": "../../assets/icons/angular.png",
-    "name": "Angular",
-    "color": "#b52e31",
-    "percentage": 80
-  },
-  {
-
-    "innerColor":  "red",
-    "urlImage": "../../assets/icons/angular.png",
-    "name": "Angular",
-    "color": "#b52e31",
-    "percentage": 80
-  },
-  {
-
-    "innerColor":  "red",
-    "urlImage": "../../assets/icons/angular.png",
-    "name": "Angular",
-    "color": "#b52e31",
-    "percentage": 80
-  },
-  {
-
-    "innerColor":  "red",
-    "urlImage": "../../assets/icons/angular.png",
-    "name": "Angular",
-    "color": "#b52e31",
-    "percentage": 80
-  },
-  {
-
-    "innerColor":  "red",
-    "urlImage": "../../assets/icons/angular.png",
-    "name": "Angular",
-    "color": "#b52e31",
-    "percentage": 80
-  },
-  {
-
-    "innerColor":  "red",
-    "urlImage": "../../assets/icons/angular.png",
-    "name": "Angular",
-    "color": "#b52e31",
-    "percentage": 80
-  },
-  {
-
-    "innerColor":  "red",
-    "urlImage": "../../assets/icons/angular.png",
-    "name": "Angular",
-    "color": "#b52e31",
-    "percentage": 80
-  },
-  {
-
-    "innerColor":  "red",
-    "urlImage": "../../assets/icons/angular.png",
-    "name": "Angular",
-    "color": "#b52e31",
-    "percentage": 80
+    "group": "soft",
+    "height":  100,
+    "width":  100,
+    "innerColor":  "#9966CC",
+    "urlImage": "../../assets/icons/ngrx.svg",
+    "name": "NgRx",
+    "color": "#4E3B41",
+    "percentage": 70
   }
 ]
 
