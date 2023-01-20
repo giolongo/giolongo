@@ -12,6 +12,7 @@ import { KnowComponent } from './components/know/know.component';
 import {NgCircleProgressModule} from "ng-circle-progress";
 import { NgxPageScrollCoreModule } from 'ngx-page-scroll-core';
 import {NgxPageScrollModule} from "ngx-page-scroll";
+import { ScrollSpyDirective } from './directives/scroll-spy.directive';
 
 @NgModule({
   declarations: [
@@ -19,7 +20,8 @@ import {NgxPageScrollModule} from "ngx-page-scroll";
     NavbarComponent,
     HomeComponent,
     FooterComponent,
-    KnowComponent
+    KnowComponent,
+    ScrollSpyDirective
   ],
   imports: [
     BrowserModule,

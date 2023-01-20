@@ -1,6 +1,6 @@
 [
   {
-    "group": "language",
+    "group": "linguaggi",
     "height": 100,
     "width": 80,
     "innerColor":  "#32a8db",
@@ -11,7 +11,7 @@
     "description": "Studiato a scuola ed utilizzato a lavoro, il principale linguagio da BE che conosco"
   },
   {
-    "group": "language",
+    "group": "linguaggi",
     "height": 100,
     "width": 80,
     "innerColor":  "#b52e31",
@@ -22,7 +22,7 @@
     "description": "La Enterprise Edition di Java che aggiunge funzionalità al classico Java, l'ho utilizzato principalmente in ambiente lavorativo"
   },
   {
-    "group": "language",
+    "group": "linguaggi",
     "height":  100,
     "width":  180,
     "innerColor":  "#DAB92D",
@@ -33,7 +33,7 @@
     "description": "Ci ho giochichiato da sempre un po' con la caretteristica di essere facilmente eseguibile dalle console del Browser. Visto anche sotto il framework AngularJs e nella versione BE con node. Usato sul FE in ambiente lavorativo"
   },
   {
-    "group": "language",
+    "group": "linguaggi",
     "height":  100,
     "width":  200,
     "innerColor":  "#1B96C0",
@@ -44,7 +44,7 @@
     "description": "Ne conosco l'esistenza e non adoro utilizzarlo, usato poco e mal volentieri."
   },
   {
-    "group": "language",
+    "group": "linguaggi",
     "height":  100,
     "width":  100,
     "innerColor":  "#5C8DBC",
@@ -175,10 +175,8 @@
     "percentage": 30,
     "description": "Ci ho giocato un po' per sperimentarlo. Successore di Express, utile alla costruzione di applicazioni Rest e Restful su Node"
   },
-
-
   {
-    "group": "other",
+    "group": "altro",
     "height":  100,
     "width":  130,
     "innerColor":  "#FFA518",
@@ -189,7 +187,7 @@
     "description": "Gestione di DBMS e quey per la manipolazione dei dati. Conoscenza di Postgresql, MySql, Sybase"
   },
   {
-    "group": "other",
+    "group": "altro",
     "height":  50,
     "width":  100,
     "innerColor":  "#CB3837",
@@ -200,7 +198,7 @@
     "description": "Il Package Manager di Node per gestire dipendenze. Essenziali in qualsiasi progetto JS o framework affini."
   },
   {
-    "group": "other",
+    "group": "altro",
     "height":  50,
     "width":  100,
     "innerColor":  "#F0E655",
@@ -211,7 +209,7 @@
     "description": "Il Sitema di version control per eccellenza. Essenziale in ogni progetto per il mantenimento dello stesso."
   },
   {
-    "group": "other",
+    "group": "altro",
     "height":  50,
     "width":  120,
     "innerColor":  "#E37627",

@@ -2,9 +2,14 @@
   <app-navbar [selectedItem]="menuService.selectedMenu | async"
               [menu]="menuService.menu | async"
               (changeRef)="changeRef($event)"></app-navbar>
-  <div class="container-box">
-    <app-home (mouseenter)="setSelectedMenu('#home')"></app-home>
-    <app-know (mouseenter)="setSelectedMenu('#know')" [knows]="knowService.knowByGroups | async" [groups]="knowService.groups | async"></app-know>
+  <div class="container-box" appScrollSpy [spiedTags]="['DIV']" (sectionChange)="this.setSelectedMenu($event)">
+    <div id="home" class="h-100 w-100">
+      <app-home></app-home>
+    </div>
+    <div id="know" class="h-100 w-100">
+      <app-know [knows]="knowService.knowByGroups | async"
+                [groups]="knowService.groups | async"></app-know>
+    </div>
   </div>
   <app-footer></app-footer>
 </div>

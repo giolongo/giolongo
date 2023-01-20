@@ -14,6 +14,7 @@ export class AppComponent {
   }
 
   setSelectedMenu(link: string): void {
+    console.log(link);
     this.menuService.selectedMenu.next(link);
   }
 

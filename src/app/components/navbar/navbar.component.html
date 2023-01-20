@@ -9,7 +9,7 @@
   <div class="collapse navbar-collapse" id="navbarColor03" [ngbCollapse]="isCollapsed">
     <ul class="navbar-nav mr-auto">
       <li class="nav-item active" *ngFor="let menuItem of menu">
-        <a class="nav-link cursor-pointer" (click)="changeRef.emit(menuItem.link)"
+        <a class="nav-link cursor-pointer" (click)="changeRef.emit(menuItem.link); isCollapsed = !isCollapsed"
            [ngClass]="{'bold': selectedItem === menuItem.link}">{{menuItem.title}} </a>
       </li>
     </ul>
