@@ -4,7 +4,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppComponent } from './app.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { NavbarComponent } from './components/navbar/navbar.component';
-import {HttpClientModule} from "@angular/common/http";
+import {HttpClient, HttpClientModule} from "@angular/common/http";
 import { HomeComponent } from './components/home/home.component';
 import { FooterComponent } from './components/footer/footer.component';
 import {NgxTypedJsModule} from "ngx-typed-js";
@@ -13,6 +13,12 @@ import {NgCircleProgressModule} from "ng-circle-progress";
 import { NgxPageScrollCoreModule } from 'ngx-page-scroll-core';
 import {NgxPageScrollModule} from "ngx-page-scroll";
 import { ScrollSpyDirective } from './directives/scroll-spy.directive';
+import {TranslateLoader, TranslateModule} from "@ngx-translate/core";
+import {TranslateHttpLoader} from "@ngx-translate/http-loader";
+
+export function HttpLoaderFactory(http: HttpClient) {
+  return new TranslateHttpLoader(http);
+}
 
 @NgModule({
   declarations: [
@@ -30,6 +36,14 @@ import { ScrollSpyDirective } from './directives/scroll-spy.directive';
     NgbModule,
     NgxTypedJsModule,
     NgxPageScrollCoreModule,
+    TranslateModule.forRoot({
+      defaultLanguage: 'it',
+      loader: {
+        provide: TranslateLoader,
+        useFactory: HttpLoaderFactory,
+        deps: [HttpClient]
+      }
+    }),
     NgCircleProgressModule.forRoot({
       // set defaults here
       radius: 100,

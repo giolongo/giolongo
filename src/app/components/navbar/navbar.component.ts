@@ -11,7 +11,9 @@ export class NavbarComponent{
 
   @Input() selectedItem!: string | null;
   @Input() menu!: MenuModel[] | null;
+  @Input() selectedLang!: string | null;
   @Output() changeRef = new EventEmitter<MenuType>();
+  @Output() changeLang = new EventEmitter<'en' | 'it'>();
 
   public isCollapsed = true;
 }

@@ -6,12 +6,25 @@
     <span class="navbar-toggler-icon"></span>
   </button>
 
-  <div class="collapse navbar-collapse" id="navbarColor03" [ngbCollapse]="isCollapsed">
+  <div class="collapse navbar-collapse w-100" id="navbarColor03" [ngbCollapse]="isCollapsed">
     <ul class="navbar-nav mr-auto">
       <li class="nav-item active" *ngFor="let menuItem of menu">
         <a class="nav-link cursor-pointer" (click)="changeRef.emit(menuItem.link); isCollapsed = !isCollapsed"
            [ngClass]="{'bold': selectedItem === menuItem.link}">{{menuItem.title}} </a>
       </li>
     </ul>
+    <div ngbDropdown class="d-inline-block navbar-brand mr-0 ml-auto">
+      <button type="button" class="btn" id="dropdownBasic1" ngbDropdownToggle>
+        <img [src]="'/assets/flag/'+selectedLang+'.jpg'" height="15" width="20">
+      </button>
+      <div ngbDropdownMenu aria-labelledby="dropdownBasic1">
+        <button (click)="changeLang.emit('it')" ngbDropdownItem>
+          <img src="/assets/flag/it.jpg" height="15" width="20"> {{'it' | translate}}
+        </button>
+        <button (click)="changeLang.emit('en')" ngbDropdownItem>
+          <img src="/assets/flag/en.jpg" height="15" width="20"> {{'en' | translate}}
+        </button>
+      </div>
+    </div>
   </div>
 </nav>
