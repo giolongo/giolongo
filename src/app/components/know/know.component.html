@@ -3,7 +3,7 @@
     <div class="col-12 " *ngFor="let group of groups">
       <div class="container" *ngIf="knows && knows[group]">
         <div class="row w-100 mx-0 my-3">
-          <h5>{{group | uppercase}}:</h5>
+          <h5>{{group | translate | uppercase}}:</h5>
           <div class="col-sm-12 col-md-6 col-lg-4 d-flex align-items-stretch my-1" *ngFor="let know of knows[group]">
             <div class="card text-center">
               <div class="card-header">
@@ -27,7 +27,8 @@
                   [showImage]="true"
                   [animationDuration]="300"
                 ></circle-progress>
-                <p class="text-black-50 mt-auto mb-1">{{know.description}}</p>
+                <p
+                  class="text-black-50 mt-auto mb-1">{{currentLanguage === 'it' ? know.description_it : know.description_en}}</p>
               </div>
             </div>
           </div>

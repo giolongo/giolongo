@@ -11,6 +11,7 @@ export class KnowComponent implements OnInit {
 
   @Input() knows!: Dictionary<KnowModel[]> | null;
   @Input() groups!: KnowModel['group'][]  | null;
+  @Input() currentLanguage!: string | null;
   constructor() { }
 
   ngOnInit(): void {

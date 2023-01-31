@@ -1,4 +1,16 @@
 {
   "it": "Italiano",
-  "en": "Inglese"
+  "en": "Inglese",
+  "Home":   "Home",
+  "Le mie conoscenze":  "Le mie conoscenze",
+  "Le mie esperienze":   "Le mie esperienze",
+  "Contattami":  "Contattami",
+  "linguaggi": "linguaggi",
+  "frontend": "frontend",
+  "backend": "backend",
+  "altro": "altro",
+  "Ciao!": "Ciao!",
+  "Sono Giovanni, benvenuto nel mio Sito!": "Sono Giovanni, benvenuto nel mio Sito!",
+  "Qui troverai la mia carriera, i miei studi e le mie passioni, e spero in futuro anche qualche guida sul mondo dell'informatica": "Qui troverai la mia carriera, i miei studi e le mie passioni, e spero in futuro anche qualche guida sul mondo dell'informatica",
+  "Il Sito è in costruzione, contattami per email o su linkedin usando gli appositi tasti in fondo": "Il Sito è in costruzione, contattami per email o su linkedin usando gli appositi tasti in fondo"
 }

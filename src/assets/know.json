@@ -8,7 +8,8 @@
     "name": "Java",
     "color": "#b52e31",
     "percentage": 70,
-    "description": "Studiato a scuola ed utilizzato a lavoro, il principale linguagio da BE che conosco"
+    "description_it": "Studiato a scuola ed utilizzato a lavoro, il principale linguagio da BE che conosco",
+    "description_en": "Studied at school and used at work, the main BE language I know"
   },
   {
     "group": "linguaggi",
@@ -19,7 +20,8 @@
     "name": "JavaEE",
     "color": "#E76F00",
     "percentage": 65,
-    "description": "La Enterprise Edition di Java che aggiunge funzionalità al classico Java, l'ho utilizzato principalmente in ambiente lavorativo"
+    "description_it": "La Enterprise Edition di Java che aggiunge funzionalità al classico Java, l'ho utilizzato principalmente in ambiente lavorativo",
+    "description_en": "The Enterprise Edition of Java which adds functionality to the classic Java, I've used it mainly in the working environment"
   },
   {
     "group": "linguaggi",
@@ -30,7 +32,8 @@
     "name": "Javascript",
     "color": "#FFD83A",
     "percentage": 60,
-    "description": "Ci ho giochichiato da sempre un po' con la caretteristica di essere facilmente eseguibile dalle console del Browser. Visto anche sotto il framework AngularJs e nella versione BE con node. Usato sul FE in ambiente lavorativo"
+    "description_it": "Ci ho giochichiato da sempre un po' con la caretteristica di essere facilmente eseguibile dalle console del Browser. Visto anche sotto il framework AngularJs e nella versione BE con node. Usato sul FE in ambiente lavorativo",
+    "description_en": "I've always played with it for a while with the characteristic of being easily executable from Browser consoles. Also seen under the AngularJs framework and in the BE version with node. Used on FE in working environment"
   },
   {
     "group": "linguaggi",
@@ -41,7 +44,8 @@
     "name": "Perl",
     "color": "#0496C0",
     "percentage": 30,
-    "description": "Ne conosco l'esistenza e non adoro utilizzarlo, usato poco e mal volentieri."
+    "description_it": "Ne conosco l'esistenza e non adoro utilizzarlo, usato poco e mal volentieri.",
+    "description_en": "I know its existence and I don't adore using it, used little and reluctantly."
   },
   {
     "group": "linguaggi",
@@ -52,7 +56,8 @@
     "name": "C++",
     "color": "#1A4674",
     "percentage": 20,
-    "description": "Studiato e utilizzato a scuola ed all'università, non mi dispiace il suo utilizzo, ma sarebbe da approfondire"
+    "description_it": "Studiato e utilizzato a scuola ed all'università, non mi dispiace il suo utilizzo, ma sarebbe da approfondire",
+    "description_en": "Studied and used at school and university, I don't mind its use, but it should be studied further"
   },
   {
     "group": "frontend",
@@ -63,7 +68,8 @@
     "name": "Angular",
     "color": "#b52e31",
     "percentage": 80,
-    "description": "Il Framework JS frontend che preferisco, lo utilizzo in tutti i progetti (anche su questo sito) per creare SPA. Mi piace la struttura che tende a dare ai progetti e mi diverte il suo utilizzo"
+    "description_it": "Il Framework JS frontend che preferisco, lo utilizzo in tutti i progetti (anche su questo sito) per creare SPA. Mi piace la struttura che tende a dare ai progetti e mi diverte il suo utilizzo",
+    "description_en": "\nMy favorite frontend JS Framework, I use it in all projects (also on this site) to create SPA. I like the structure it tends to give to projects and I enjoy using it"
   },
   {
     "group": "frontend",
@@ -74,7 +80,8 @@
     "name": "AngularJs",
     "color": "#b52e31",
     "percentage": 70,
-    "description": "Utilizzato in ambito lavorativo, lo conosco, non lo adoro come Angular, ma se necessario riesco ad approcciarmi con questo framework"
+    "description_it": "Utilizzato in ambito lavorativo, lo conosco, non lo adoro come Angular, ma se necessario riesco ad approcciarmi con questo framework",
+    "description_en": "Used in the workplace, I know it, I don't love it like Angular, but if necessary I can approach this framework"
   },
   {
     "group": "frontend",
@@ -85,7 +92,8 @@
     "name": "NgRx",
     "color": "#4E3B41",
     "percentage": 70,
-    "description": "La libreria per il pattern Redux che serve ad Angular per renderlo definitivo, essenziale in progetti medio/grossi scritti in Angular"
+    "description_it": "La libreria per il pattern Redux che serve ad Angular per renderlo definitivo, essenziale in progetti medio/grossi scritti in Angular",
+    "description_en": "The library for the Redux pattern that Angular needs to make it definitive, essential in medium/large projects written in Angular"
   },
   {
     "group": "frontend",
@@ -96,7 +104,8 @@
     "name": "Bootstrap",
     "color": "#000000",
     "percentage": 70,
-    "description": "Liberia CSS per i progetti FE, conosco sia la versione base che quella componentizzata per Angular"
+    "description_it": "Liberia CSS per i progetti FE, conosco sia la versione base che quella componentizzata per Angular",
+    "description_en": "Liberia CSS for FE projects, I know both basic and componentized versions for Angular"
   },
   {
     "group": "frontend",
@@ -107,7 +116,8 @@
     "name": "VueJs",
     "color": "#4dba87",
     "percentage": 50,
-    "description": "Utilizzato in ambito lavorativo, prediligo l'utilizzo di Angular ma riesco ad approcciarmi anche con questo Framework"
+    "description_it": "Utilizzato in ambito lavorativo, prediligo l'utilizzo di Angular ma riesco ad approcciarmi anche con questo Framework",
+    "description_en": "Used in the workplace, I prefer the use of Angular but I can also approach this Framework"
   },
   {
     "group": "frontend",
@@ -118,7 +128,8 @@
     "name": "Vuex",
     "color": "#425466",
     "percentage": 50,
-    "description": "La libreria per il pattern Redux utilizzata su Vue. Un po' più minimale rispetto ad NgRx ma anch'essa utile. Essendo più minimal si può pensare di inserirla anche nei progetti più piccoli"
+    "description_it": "La libreria per il pattern Redux utilizzata su Vue. Un po' più minimale rispetto ad NgRx ma anch'essa utile. Essendo più minimal si può pensare di inserirla anche nei progetti più piccoli",
+    "description_en": "\nThe Redux pattern library used on Vue. A little more minimal than NgRx but still useful. Being more minimal, you can think of including it even in the smallest projects"
   },
   {
     "group": "frontend",
@@ -129,7 +140,8 @@
     "name": "CSS",
     "color": "#32a8db",
     "percentage": 30,
-    "description": "Non mi è mai piaciuta la scrittura del CSS, riesco a fare qualcosa, ma solitamente costruita la base mi faccio affiancare da un UI Enginner"
+    "description_it": "Non mi è mai piaciuta la scrittura del CSS, riesco a fare qualcosa, ma solitamente costruita la base mi faccio affiancare da un UI Enginner",
+    "description_en": "I've never liked writing CSS, I can do something, but usually once I've built the base I get a UI Engineer to help me"
   },
   {
     "group": "backend",
@@ -140,7 +152,8 @@
     "name": "Hibernate",
     "color": "#59666c",
     "percentage": 60,
-    "description": "ORM di base utilizzato su Java, usato in ambiente lavorativo principalmente, con mapping di Entity, relazioni, query native e con HQL"
+    "description_it": "ORM di base utilizzato su Java, usato in ambiente lavorativo principalmente, con mapping di Entity, relazioni, query native e con HQL",
+    "description_en": "Basic ORM used on Java, mainly used in the working environment, with Entity mapping, relationships, native queries and with HQL"
   },
   {
     "group": "backend",
@@ -151,7 +164,8 @@
     "name": "RestEasy",
     "color": "#000000",
     "percentage": 60,
-    "description": "Utilizzato in ambiente lavorativo per la costruzione di servizi Rest e Restful di applicazioni Java"
+    "description_it": "Utilizzato in ambiente lavorativo per la costruzione di servizi Rest e Restful di applicazioni Java",
+    "description_en": "Used in the working environment for the construction of Rest and Restful services of Java applications"
   },
   {
     "group": "backend",
@@ -162,7 +176,8 @@
     "name": "Quarkus",
     "color": "#FF004AFF",
     "percentage": 40,
-    "description": "Utilizzato a lavoro, mi piace molto l'approccio utilizzato da Quarkus. Sarà mio interesse approfondirlo."
+    "description_it": "Utilizzato a lavoro, mi piace molto l'approccio utilizzato da Quarkus. Sarà mio interesse approfondirlo.",
+    "description_en": "Used at work, I really like the approach used by Quarkus. It will be my interest to explore it further."
   },
   {
     "group": "backend",
@@ -173,7 +188,8 @@
     "name": "RestEasy",
     "color": "#59666c",
     "percentage": 30,
-    "description": "Ci ho giocato un po' per sperimentarlo. Successore di Express, utile alla costruzione di applicazioni Rest e Restful su Node"
+    "description_it": "Ci ho giocato un po' per sperimentarlo. Successore di Express, utile alla costruzione di applicazioni Rest e Restful su Node",
+    "description_en": "I played with it a bit to experiment with it. Successor of Express, useful for building Rest and Restful applications on Node"
   },
   {
     "group": "altro",
@@ -184,7 +200,8 @@
     "name": "SQL",
     "color": "#336791",
     "percentage": 80,
-    "description": "Gestione di DBMS e quey per la manipolazione dei dati. Conoscenza di Postgresql, MySql, Sybase"
+    "description_it": "Gestione di DBMS e quey per la manipolazione dei dati. Conoscenza di Postgresql, MySql, Sybase",
+    "description_en": "Management of DBMS and data manipulation queries. Knowledge of Postgresql, MySql, Sybase"
   },
   {
     "group": "altro",
@@ -195,7 +212,8 @@
     "name": "NPM",
     "color": "#CB877C",
     "percentage": 70,
-    "description": "Il Package Manager di Node per gestire dipendenze. Essenziali in qualsiasi progetto JS o framework affini."
+    "description_it": "Il Package Manager di Node per gestire dipendenze. Essenziali in qualsiasi progetto JS o framework affini.",
+    "description_en": "The Node Package Manager to manage dependencies. Essential in any JS project or related framework."
   },
   {
     "group": "altro",
@@ -206,7 +224,8 @@
     "name": "Git",
     "color": "#F05033",
     "percentage": 60,
-    "description": "Il Sitema di version control per eccellenza. Essenziale in ogni progetto per il mantenimento dello stesso."
+    "description_it": "Il Sitema di version control per eccellenza. Essenziale in ogni progetto per il mantenimento dello stesso.",
+    "description_en": "The version control system par excellence. Essential in every project for the maintenance of the same."
   },
   {
     "group": "altro",
@@ -217,7 +236,8 @@
     "name": "Maven",
     "color": "#81277A",
     "percentage": 50,
-    "description": "Software Project Manager di Java, aiuta a gestire le versioni, dipendenze e packaging di un progetto."
+    "description_it": "Software Project Manager di Java, aiuta a gestire le versioni, dipendenze e packaging di un progetto.",
+    "description_en": "Java Software Project Manager, helps manage versions, dependencies and packaging of a project."
   }
 ]
 

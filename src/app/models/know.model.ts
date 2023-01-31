@@ -7,5 +7,6 @@ export interface KnowModel {
   percentage: number,
   height: number,
   width: number,
-  description: string
+  description_it: string
+  description_en: string
 }

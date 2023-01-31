@@ -10,7 +10,7 @@
     <ul class="navbar-nav mr-auto">
       <li class="nav-item active" *ngFor="let menuItem of menu">
         <a class="nav-link cursor-pointer" (click)="changeRef.emit(menuItem.link); isCollapsed = !isCollapsed"
-           [ngClass]="{'bold': selectedItem === menuItem.link}">{{menuItem.title}} </a>
+           [ngClass]="{'bold': selectedItem === menuItem.link}">{{menuItem.title | translate}} </a>
       </li>
     </ul>
     <div ngbDropdown class="d-inline-block navbar-brand mr-0 ml-auto">

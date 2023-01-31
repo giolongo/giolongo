@@ -1,10 +1,12 @@
 <div class="bg-home text-white">
   <div class="row w-100 h-100 m-0">
     <div class="col-sm-10 col-md-4 my-auto">
-      <ngx-typed-js [loop]="true" [typeSpeed]="70" [showCursor]="false" [strings]="['Ciao!',
-      'Sono Giovanni, benvenuto nel mio Sito!',
-      'Qui troverai la mia carriera, i miei studi e le mie passioni, e spero in futuro anche qualche guida sul mondo dell\'informatica!',
-      'Al momento il sito è in costruzione, ti prego di contattarmi per email o su linkedin tramite gli appositi bottoni presenti sul footer!', 'Grazie!']">
+      <ngx-typed-js [loop]="true" [typeSpeed]="70" [showCursor]="false" [strings]="[
+      'Ciao!' | translate,
+      'Sono Giovanni, benvenuto nel mio Sito!' | translate,
+      'Qui troverai la mia carriera, i miei studi e le mie passioni, e spero in futuro anche qualche guida sul mondo dell\'informatica' | translate,
+      'Il Sito è in costruzione, contattami per email o su linkedin usando gli appositi tasti in fondo' | translate,
+      ]">
         <h2 class="typing"></h2>
       </ngx-typed-js>
     </div>
