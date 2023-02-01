@@ -1,17 +1,20 @@
-<div class="d-flex flex-column min-vh-100">
+<div class="page-content">
   <app-navbar [selectedItem]="menuService.selectedMenu | async"
               [menu]="menuService.menu | async"
               [selectedLang]="lang | async"
               (changeLang)="changeLang($event)"
               (changeRef)="changeRef($event)"></app-navbar>
   <div class="container-box" appScrollSpy [spiedTags]="['DIV']" (sectionChange)="this.setSelectedMenu($event)">
-    <div id="home" class="h-100 w-100">
+    <div id="home">
       <app-home></app-home>
     </div>
-    <div id="know" class="h-100 w-100">
+    <div id="know">
       <app-know [knows]="knowService.knowByGroups | async"
                 [currentLanguage]="lang | async"
                 [groups]="knowService.groups | async"></app-know>
+    </div>
+    <div id="timeline">
+      <app-timeline [timeline]="timelineService.timeline | async"></app-timeline>
     </div>
   </div>
   <app-footer></app-footer>

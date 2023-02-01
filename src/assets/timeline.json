@@ -1,0 +1,51 @@
+{
+  "languages": [
+    {
+      "language": "it",
+      "speckLevel": "madrelingua",
+      "readLevel": "madrelingua",
+      "listenLevel": "madrelingua"
+    },
+    {
+      "language": "en",
+      "speckLevel": "A2",
+      "readLevel": "B1",
+      "listenLevel": "A2"
+    }
+  ],
+  "school": [
+    {
+      "title": "Diploma Perito Informatico",
+      "school": "I.T.I.S. E. Fermi (Giarre)",
+      "vote": "80/100"
+    },
+    {
+      "title": "Laurea Triennale",
+      "school": "Università degli studi di Catania",
+      "vote": "101/110"
+    }
+  ],
+  "exp": [
+    {
+      "title": "Stagista",
+      "company": "tellisync Srl",
+      "period": "10/01/2018 - 08/07/2019",
+      "technologies": "Javascript, AngularJs, Java EE, Sybase, Maven",
+      "detailIsDisplayed": false
+    },
+    {
+      "title": "Full Stack Junior Developer",
+      "company": "Intellisync Srl",
+      "period": "09/07/2018 – 01/09/2019",
+      "technologies": "Javascript, AngularJs, Angular, Perl, Java EE, Postgres, Npm, Maven",
+      "detailIsDisplayed": false
+    },
+    {
+      "title": "Full Stack Developer",
+      "company": "R.B.Tech",
+      "period": "01/09/2019 - Now",
+      "technologies": "Javascript, AngularJs, Angular, Perl, Java EE, Postgres, Npm, Maven, Vue, Quarkus",
+      "detailIsDisplayed": false
+    }
+  ]
+}

@@ -1,37 +1,41 @@
-<div class="bg-know py-4">
-  <div class="row w-100 m-0">
-    <div class="col-12 " *ngFor="let group of groups">
-      <div class="container" *ngIf="knows && knows[group]">
-        <div class="row w-100 mx-0 my-3">
-          <h5>{{group | translate | uppercase}}:</h5>
-          <div class="col-sm-12 col-md-6 col-lg-4 d-flex align-items-stretch my-1" *ngFor="let know of knows[group]">
-            <div class="card text-center">
-              <div class="card-header">
-                {{know.name}}
-              </div>
-              <div class="card-body d-flex flex-column">
-                <circle-progress
-                  [percent]="know.percentage"
-                  [showUnits]="true"
-                  [radius]="100"
-                  [outerStrokeWidth]="16"
-                  [innerStrokeWidth]="8"
-                  [outerStrokeColor]="know.color"
-                  [innerStrokeColor]="know.innerColor"
-                  [animation]="true"
-                  [title]="know.name"
-                  [showSubtitle]="false"
-                  [imageSrc]="know.urlImage"
-                  [imageHeight]="know.height"
-                  [imageWidth]="know.width"
-                  [showImage]="true"
-                  [animationDuration]="300"
-                ></circle-progress>
-                <p
-                  class="text-black-50 mt-auto mb-1">{{currentLanguage === 'it' ? know.description_it : know.description_en}}</p>
+<section id="know">
+  <div class="container">
+    <div class="row w-100 m-0">
+      <div class="col-12 " *ngFor="let group of groups">
+        <div class="container" *ngIf="knows && knows[group]">
+          <div class="row w-100 mx-0 my-3">
+            <h5>{{group | translate | uppercase}}:</h5>
+            <div class="col-sm-12 col-md-6 col-lg-4 d-flex align-items-stretch my-1" *ngFor="let know of knows[group]">
+              <div class="card text-center">
+                <div class="card-header">
+                  {{know.name}}
+                </div>
+                <div class="card-body d-flex flex-column">
+                  <circle-progress
+                    [percent]="know.percentage"
+                    [showUnits]="true"
+                    [radius]="100"
+                    [outerStrokeWidth]="16"
+                    [innerStrokeWidth]="8"
+                    [outerStrokeColor]="know.color"
+                    [innerStrokeColor]="know.innerColor"
+                    [animation]="true"
+                    [title]="know.name"
+                    [showSubtitle]="false"
+                    [imageSrc]="know.urlImage"
+                    [imageHeight]="know.height"
+                    [imageWidth]="know.width"
+                    [showImage]="true"
+                    [animationDuration]="300"
+                  ></circle-progress>
+                  <p
+                    class="text-black-50 mt-auto mb-1">{{currentLanguage === 'it' ? know.description_it : know.description_en}}</p>
+                </div>
               </div>
             </div>
           </div>
         </div>
       </div>
     </div>
+  </div>
+</section>

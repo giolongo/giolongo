@@ -1,0 +1,65 @@
+<section id="timeline" *ngIf="timeline">
+  <div class="container">
+    <div class="row w-100 m-0">
+      <div class="container">
+        <h2 class="mb-4"><strong>   {{'esperienze' | translate}}</strong></h2>
+        <span class="bar-title mb-5"></span>
+        <div class="row">
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
+            <h4><strong>{{'educazione' | translate}}</strong></h4>
+            <ul class="timeline">
+              <li *ngFor="let school of timeline.school;">
+                <h5>{{school.title | translate}}</h5>
+                <em class="font-italic">{{school.school | translate}}</em>
+                <p class="year p-2 d-flex justify-content-center">{{school.vote}}</p>
+              </li>
+            </ul>
+          </div>
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
+            <h4><strong>{{'lavoro' | translate}}</strong></h4>
+            <ul class="timeline">
+              <li *ngFor="let experience of timeline.exp;">
+                <h5>{{experience.title}}</h5>
+                <em>{{experience.company}}</em>
+                <div class="d-flex flex-row">
+                  <p class="year p-2 d-flex justify-content-center">{{experience.period}}</p>
+                  <button (click)="detailOnClick(experience)" type="button"
+                          class="btn btn-primary">
+                    <span *ngIf="!experience.detailIsDisplayed">+</span><span
+                    *ngIf="experience.detailIsDisplayed">-</span> {{'dettagli' | translate}}</button>
+                </div>
+                <p *ngIf="experience.detailIsDisplayed">
+                  <strong>{{'tecnologie' | translate}}:</strong> {{experience.technologies}}
+                </p>
+              </li>
+
+            </ul>
+          </div>
+          <div class="col-lg-4 col-md-12 aos-init aos-animate" data-aos="fade-up" data-aos-delay="300">
+            <div class="container row">
+              <div class="aos-init aos-animate" data-aos="fade-up" data-aos-delay="300">
+                <h4><strong>{{'lingue' | translate}}</strong></h4>
+                <div class="noProgress langue" *ngFor="let lang of timeline.languages;">
+                            <span class="">
+                              <img [src]="'assets/flag/'+lang.language+'.jpg'" width="20"
+                                                [alt]="lang.language">
+                              <strong> {{lang.language | translate}}</strong>
+                              <div class="val">
+                                <strong>{{'listen' | translate}}</strong> {{lang.listenLevel | translate}}
+                              </div>
+                              <div class="val">
+                                <strong>{{'reading' | translate}}</strong> {{lang.readLevel | translate}}
+                              </div>
+                              <div class="val">
+                                <strong>{{'speck' | translate}}</strong> {{lang.speckLevel | translate}}
+                              </div>
+                            </span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

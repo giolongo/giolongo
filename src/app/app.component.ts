@@ -1,8 +1,8 @@
 import {Component} from '@angular/core';
 import {MenuService} from "./services/menu.service";
 import {KnowService} from "./services/know.service";
-import {TranslateService} from "@ngx-translate/core";
 import {LangUtilsService} from "./services/lang-utils.service";
+import {TimelineService} from "./services/timeline.service";
 
 @Component({
   selector: 'app-root',
@@ -14,7 +14,7 @@ export class AppComponent {
 
   public lang = this.langUtilsService.langSelected;
 
-  constructor(public menuService: MenuService, public knowService: KnowService, private langUtilsService: LangUtilsService) {
+  constructor(public menuService: MenuService, public knowService: KnowService, public timelineService: TimelineService, private langUtilsService: LangUtilsService) {
   }
 
   setSelectedMenu(link: string): void {

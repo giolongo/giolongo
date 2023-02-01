@@ -15,6 +15,8 @@ import {NgxPageScrollModule} from "ngx-page-scroll";
 import { ScrollSpyDirective } from './directives/scroll-spy.directive';
 import {TranslateLoader, TranslateModule} from "@ngx-translate/core";
 import {TranslateHttpLoader} from "@ngx-translate/http-loader";
+import { TimelineComponent } from './components/timeline/timeline.component';
+import {FontAwesomeModule} from "@fortawesome/angular-fontawesome";
 
 export function HttpLoaderFactory(http: HttpClient) {
   return new TranslateHttpLoader(http);
@@ -27,13 +29,15 @@ export function HttpLoaderFactory(http: HttpClient) {
     HomeComponent,
     FooterComponent,
     KnowComponent,
-    ScrollSpyDirective
+    ScrollSpyDirective,
+    TimelineComponent
   ],
   imports: [
     BrowserModule,
     HttpClientModule,
     NgxTypedJsModule,
     NgbModule,
+    FontAwesomeModule,
     NgxTypedJsModule,
     NgxPageScrollCoreModule,
     TranslateModule.forRoot({

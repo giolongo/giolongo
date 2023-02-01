@@ -4,15 +4,23 @@
   "Home":   "Home",
   "Le mie conoscenze":  "My knowledge",
   "Le mie esperienze":   "My experiences",
+  "lingue": "lenguages",
   "Contattami":  "Contact Me",
   "linguaggi": "lenguages",
   "frontend": "frontend",
   "backend": "backend",
   "altro": "other",
-  "Ciao!": "Ciao!",
   "Ciao!": "Hello!",
   "Sono Giovanni, benvenuto nel mio Sito!": "I'm Giovanni, welcome to my Site!",
   "Qui troverai la mia carriera, i miei studi e le mie passioni, e spero in futuro anche qualche guida sul mondo dell'informatica": "Here you will find my career, my studies and my passions, and I hope in the future also some guides on the world of information technology",
-  "Il Sito è in costruzione, contattami per email o su linkedin usando gli appositi tasti in fondo": "The site is in building, contact me for email or linkendin with the button on bottom!"
-
+  "Il Sito è in costruzione, contattami per email o su linkedin usando gli appositi tasti in fondo": "The site is in building, contact me for email or linkendin with the button on bottom!",
+  "listen": "Listen",
+  "reading": "Reading",
+  "speck": "Speck",
+  "madrelingua": "mother tongue",
+  "esperienze": "Expiriencies",
+  "educazione": "Education",
+  "lavoro": "Work",
+  "dettagli": "Detail",
+  "tecnologie": "Technologies"
 }
