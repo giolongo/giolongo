@@ -25,8 +25,7 @@
                   <p class="year p-2 d-flex justify-content-center">{{experience.period}}</p>
                   <button (click)="detailOnClick(experience)" type="button"
                           class="btn btn-primary">
-                    <span *ngIf="!experience.detailIsDisplayed">+</span><span
-                    *ngIf="experience.detailIsDisplayed">-</span> {{'dettagli' | translate}}</button>
+                    {{'dettagli' | translate}}</button>
                 </div>
                 <p *ngIf="experience.detailIsDisplayed">
                   <strong>{{'tecnologie' | translate}}:</strong> {{experience.technologies}}
