@@ -3,10 +3,10 @@
   font-weight: bold
 }
 
-@font-face {
-  font-family: 'title-font';
-  src: url('./assets/font/maghrib.ttf');
-}
+/*@font-face {*/
+/*  font-family: 'title-font';*/
+/*  src: url('./assets/font/maghrib.ttf');*/
+/*}*/
 
 .title-font {
   font-family: 'title-font', serif;
