@@ -13,7 +13,7 @@ export class KnowService {
   public knows: BehaviorSubject<KnowModel[] | null> = new BehaviorSubject<KnowModel[] | null>(null);
 
   constructor(private httpClient: HttpClient) {
-    this.httpClient.get<KnowModel[]>('../../assets/know.json').subscribe(m => {
+    this.httpClient.get<KnowModel[]>('assets/know.json').subscribe(m => {
       this.knows.next(m);
     })
   }

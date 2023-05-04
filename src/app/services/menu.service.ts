@@ -11,7 +11,7 @@ export class MenuService {
   public selectedMenu: BehaviorSubject<string | null> = new BehaviorSubject<string | null>(null);
   public menu: BehaviorSubject<MenuModel[] | null> = new BehaviorSubject<MenuModel[] | null>(null);
   constructor(private httpClient: HttpClient) {
-    this.httpClient.get<MenuModel[]>('../../assets/menu.json').subscribe(m => {
+    this.httpClient.get<MenuModel[]>('assets/menu.json').subscribe(m => {
       this.menu.next(m);
       this.selectedMenu.next(m[0].link);
     })
