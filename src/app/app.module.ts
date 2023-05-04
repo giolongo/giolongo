@@ -19,7 +19,7 @@ import { TimelineComponent } from './components/timeline/timeline.component';
 import {FontAwesomeModule} from "@fortawesome/angular-fontawesome";
 
 export function HttpLoaderFactory(http: HttpClient) {
-  return new TranslateHttpLoader(http);
+  return new TranslateHttpLoader(http, 'assets/i18n/');
 }
 
 @NgModule({
