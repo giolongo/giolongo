@@ -8,7 +8,7 @@
     "prod": "ng build --output-hashing=all  --base-href=/giolongo/ --configuration production",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
-    "deploy": "ng deploy --output-hashing=all --base-href=/giolongo/"
+    "deploy": "ng deploy --base-href=/giolongo/"
   },
   "private": true,
   "dependencies": {

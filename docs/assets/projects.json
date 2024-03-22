@@ -1,0 +1,25 @@
+[
+  {
+    "name": "venus",
+    "label": "Venus Parrucchieri",
+    "link": "https://www.venusparrucchieri.com/",
+    "img":  "assets/projects/venus.png"
+  },
+  {
+    "name": "nx-libraries",
+    "label": "Nx Libraries",
+    "link": "https://giolongo.github.io/nx-libraries-demo/",
+    "img":  "assets/projects/nx-libraries.png"
+  },
+  {
+    "name": "nx-libraries",
+    "label": "Nx Libraries",
+    "link": "https://giolongo.github.io/nx-libraries-demo/",
+    "img":  "assets/projects/nx-libraries.png"
+  }
+]
+
+
+
+
+
