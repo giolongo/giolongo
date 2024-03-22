@@ -17,6 +17,7 @@ import {TranslateLoader, TranslateModule} from "@ngx-translate/core";
 import {TranslateHttpLoader} from "@ngx-translate/http-loader";
 import { TimelineComponent } from './components/timeline/timeline.component';
 import {FontAwesomeModule} from "@fortawesome/angular-fontawesome";
+import { ProjectsComponent } from './components/projects/projects.component';
 
 export function HttpLoaderFactory(http: HttpClient) {
   return new TranslateHttpLoader(http, 'assets/i18n/');
@@ -30,7 +31,8 @@ export function HttpLoaderFactory(http: HttpClient) {
     FooterComponent,
     KnowComponent,
     ScrollSpyDirective,
-    TimelineComponent
+    TimelineComponent,
+    ProjectsComponent
   ],
   imports: [
     BrowserModule,

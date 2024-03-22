@@ -5,10 +5,10 @@
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build",
-    "prod": "ng build --base-href=/giolongo/ --configuration production",
+    "prod": "ng build --output-hashing=all  --base-href=/giolongo/ --configuration production",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
-    "deploy": "ng deploy --base-href=/giolongo/"
+    "deploy": "ng deploy --output-hashing=all --base-href=/giolongo/"
   },
   "private": true,
   "dependencies": {

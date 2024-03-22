@@ -14,7 +14,6 @@ export class ScrollSpyDirective {
   @HostListener('scroll', ['$event'])
   onScroll(event: any) {
     let currentSection: string;
-    debugger;
     const children = this._el.nativeElement.children;
     const scrollTop = event.target.scrollTop;
     const parentOffset = event.target.offsetTop;

@@ -16,6 +16,9 @@
     <div id="timeline">
       <app-timeline [timeline]="timelineService.timeline | async"></app-timeline>
     </div>
+    <div id="personal-project">
+      <app-projects [projects]="projectService.projects | async"></app-projects>
+    </div>
   </div>
   <app-footer></app-footer>
 </div>
