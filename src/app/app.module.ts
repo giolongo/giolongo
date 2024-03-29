@@ -9,7 +9,6 @@ import { HomeComponent } from './components/home/home.component';
 import { FooterComponent } from './components/footer/footer.component';
 import {NgxTypedJsModule} from "ngx-typed-js";
 import { KnowComponent } from './components/know/know.component';
-import {NgCircleProgressModule} from "ng-circle-progress";
 import { NgxPageScrollCoreModule } from 'ngx-page-scroll-core';
 import {NgxPageScrollModule} from "ngx-page-scroll";
 import { ScrollSpyDirective } from './directives/scroll-spy.directive';
@@ -18,6 +17,7 @@ import {TranslateHttpLoader} from "@ngx-translate/http-loader";
 import { TimelineComponent } from './components/timeline/timeline.component';
 import {FontAwesomeModule} from "@fortawesome/angular-fontawesome";
 import { ProjectsComponent } from './components/projects/projects.component';
+import {NgCircleProgressModule} from "ng-circle-progress";
 
 export function HttpLoaderFactory(http: HttpClient) {
   return new TranslateHttpLoader(http, 'assets/i18n/');
