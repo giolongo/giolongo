@@ -3,7 +3,15 @@
     "name": "venus",
     "label": "Venus Parrucchieri",
     "link": "https://www.venusparrucchieri.com/",
-    "img":  "assets/projects/venus.png"
+    "img":  "assets/projects/venus.png",
+    "bg": "grey"
+  },
+  {
+    "name": "Andrea Asaro",
+    "label": "Andrea Asaro",
+    "link": "https://www.andreasaro.it/",
+    "img":  "assets/projects/asaro.png",
+    "bg": "grey"
   },
   {
     "name": "nx-libraries",

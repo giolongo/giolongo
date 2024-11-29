@@ -67,9 +67,9 @@
     "urlImage": "assets/icons/angular.png",
     "name": "Angular",
     "color": "#b52e31",
-    "percentage": 80,
-    "description_it": "Il Framework JS frontend che preferisco, lo utilizzo in tutti i progetti (anche su questo sito) per creare SPA. Mi piace la struttura che tende a dare ai progetti e mi diverte il suo utilizzo",
-    "description_en": "\nMy favorite frontend JS Framework, I use it in all projects (also on this site) to create SPA. I like the structure it tends to give to projects and I enjoy using it"
+    "percentage": 90,
+    "description_it": "Il Framework JS frontend che preferisco, lo utilizzo in tutti i progetti (anche su questo sito) per creare SPA. Mi piace la struttura che tende a dare ai progetti e mi diverte il suo utilizzo. Usato fino alla versione 18, con Signal e Signal Store.",
+    "description_en": "\nMy favorite frontend JS Framework, I use it in all projects (also on this site) to create SPA. I like the structure it tends to give to projects and I enjoy using it. Used until v18 with Signal and Signal Store."
   },
   {
     "group": "frontend",
