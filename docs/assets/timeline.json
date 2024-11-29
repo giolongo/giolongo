@@ -43,8 +43,15 @@
     {
       "title": "Full Stack Developer",
       "company": "R.B.Tech",
-      "period": "01/09/2019 - Now",
+      "period": "01/09/2019 - 01/09/2022",
       "technologies": "Javascript, AngularJs, Angular, Perl, Java EE, Postgres, Npm, Maven, Vue, Quarkus",
+      "detailIsDisplayed": false
+    },
+    {
+      "title": "Tech Lead",
+      "company": "R.B.Tech",
+      "period": "01/09/2022 - Now",
+      "technologies": "Javascript, Typescript, Angular",
       "detailIsDisplayed": false
     }
   ]
